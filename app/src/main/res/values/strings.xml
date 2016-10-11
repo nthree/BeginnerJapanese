@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Japanese for Beginners</string>
+
+    <!-- Category name for japanese_hiragana [CHAR LIMIT=20] -->
+    <string name="category_hiragana">Hiragana</string>
+
+    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="category_colors">Colors</string>
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="category_numbers">Numbers</string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_family">Family Members</string>
+
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="category_phrases">Phrases</string>
+
+    <string name="category_time">Time</string>
+
+    <string name="hiragana_info"> Hiragana is the main alphabet or character set for Japanese. Japanese also consists of two other character sets - Kanji (Chinese characters), and another alphabet/character set, Katakana, which is mainly used for foreign words.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

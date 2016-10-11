@@ -1,0 +1,1388 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".japanese_hiragana"
+    android:scrollbarThumbVertical="@drawable/scrollview"
+    style="@style/ScrollBar">
+
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/tan_background"
+        android:orientation="vertical"
+        tools:context="org.nthree.beginnerjapanese.MainActivity">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/hiragana"
+            style="@style/ImageStyle"
+            android:onClick="openHiraganaActivity"
+            android:src="@drawable/hiragana2" />
+
+         <ImageView
+             android:layout_alignRight="@+id/hiragana"
+             android:layout_height="40dp"
+             android:layout_width="40dp"
+             android:src="@drawable/info"
+             android:padding="5dp"
+             />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000000"
+            />
+
+
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/A"
+                            style="@style/HiraganaStyle"
+                            android:background="@drawable/a"
+                           />
+
+                        <ImageView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/line" />
+
+                        <Button
+                            android:id="@+id/I"
+                            style="@style/HiraganaStyle"
+                            android:background="@drawable/i"
+                            />
+
+                        <ImageView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/line"
+                            />
+
+                        <ImageView
+                            android:id="@+id/U"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/u"
+                           />
+
+                        <ImageView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/line" />
+
+                        <ImageView
+                            android:id="@+id/E"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/e"
+                            />
+
+                        <ImageView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/line" />
+
+                        <ImageView
+                            android:id="@+id/O"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/o" />
+                    </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000000"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/KA"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/ka" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/KI"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/ki" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/KU"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/ku" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/KE"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/ke" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/KO"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/ko" />
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:src="@drawable/line" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/SA"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/sa" />
+
+                        <ImageView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/line" />
+
+                        <ImageView
+                            android:id="@+id/SHI"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/shi" />
+
+                        <ImageView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/line" />
+
+                        <ImageView
+                            android:id="@+id/SU"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/su" />
+
+                        <ImageView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/line" />
+
+                        <ImageView
+                            android:id="@+id/SE"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/se" />
+
+                        <ImageView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/line" />
+
+                        <ImageView
+                            android:id="@+id/SO"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/so" />
+                    </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:src="@drawable/line" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/TA"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/ta" />
+
+                        <ImageView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/line" />
+
+                        <ImageView
+                            android:id="@+id/CHI"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/chi" />
+
+                        <ImageView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/line" />
+
+                        <ImageView
+                            android:id="@+id/TSU"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/tsu" />
+
+                        <ImageView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/line" />
+
+                        <ImageView
+                            android:id="@+id/TE"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/te" />
+
+                        <ImageView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/line" />
+
+                        <ImageView
+                            android:id="@+id/TO"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/to" />
+                    </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:src="@drawable/line" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/NA"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/na" />
+
+                        <ImageView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/line" />
+
+                        <ImageView
+                            android:id="@+id/NI"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/ni" />
+
+                        <ImageView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/line" />
+
+                        <ImageView
+                            android:id="@+id/NU"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/nu" />
+
+                        <ImageView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/line" />
+
+                        <ImageView
+                            android:id="@+id/NE"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/ne" />
+
+                        <ImageView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/line" />
+
+                        <ImageView
+                            android:id="@+id/NO"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/no" />
+                    </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:src="@drawable/line" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/HA"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/ha" />
+
+                        <ImageView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/line" />
+
+                        <ImageView
+                            android:id="@+id/HI"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/hi" />
+
+                        <ImageView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/line" />
+
+                        <ImageView
+                            android:id="@+id/HU"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/hu" />
+
+                        <ImageView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/line" />
+
+                        <ImageView
+                            android:id="@+id/HE"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/he" />
+
+                        <ImageView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/line" />
+
+                        <ImageView
+                            android:id="@+id/HO"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/ho" />
+                    </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:src="@drawable/line" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/MA"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/ma" />
+
+                        <ImageView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/line" />
+
+                        <ImageView
+                            android:id="@+id/MI"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/mi" />
+
+                        <ImageView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/line" />
+
+                        <ImageView
+                            android:id="@+id/MU"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/mu" />
+
+                        <ImageView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/line" />
+
+                        <ImageView
+                            android:id="@+id/ME"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/me" />
+
+                        <ImageView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/line" />
+
+                        <ImageView
+                            android:id="@+id/MO"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/mo" />
+                    </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:src="@drawable/line" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/YA"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/ya" />
+
+                        <ImageView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/line" />
+
+                        <ImageView
+                            android:id="@+id/blank1"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/blank" />
+
+                        <ImageView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/line" />
+
+                        <ImageView
+                            android:id="@+id/YU"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/yu" />
+
+                        <ImageView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/line" />
+
+                        <ImageView
+                            android:id="@+id/blank2"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/blank" />
+
+                        <ImageView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/line" />
+
+                        <ImageView
+                            android:id="@+id/YO"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/yo" />
+                    </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:src="@drawable/line" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/RA"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/ra" />
+
+                        <ImageView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/line" />
+
+                        <ImageView
+                            android:id="@+id/RI"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/ri" />
+
+                        <ImageView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/line" />
+
+                        <ImageView
+                            android:id="@+id/RU"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/ru" />
+
+                        <ImageView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/line" />
+
+                        <ImageView
+                            android:id="@+id/RE"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/re" />
+
+                        <ImageView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/line" />
+
+                        <ImageView
+                            android:id="@+id/RO"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/ro" />
+                    </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:src="@drawable/line" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/WA"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/wa" />
+
+                        <ImageView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/line" />
+
+                        <ImageView
+                            android:id="@+id/blank3"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/blank" />
+
+                        <ImageView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/line" />
+
+                        <ImageView
+                            android:id="@+id/blank4"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/blank" />
+
+                        <ImageView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/line" />
+
+                        <ImageView
+                            android:id="@+id/blank5"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/blank" />
+
+                        <ImageView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/line" />
+
+                        <ImageView
+                            android:id="@+id/OO"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/oo" />
+                    </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#000000"
+            />
+
+
+        <!-- NEXT SECTION                    -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/GA"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/ga" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/GI"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/gi" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/GU"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/gu" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/GE"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/ge" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/GO"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/go" />
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:src="@drawable/line" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ZA"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/za" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/JI"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/ji" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/ZU"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/zu" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/ZE"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/ze" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/ZO"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/zo" />
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:src="@drawable/line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/DA"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/da" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/DI"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/jii" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/DU"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/zu2" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/DE"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/de" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/DO"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/do2" />
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:src="@drawable/line" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/BA"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/ba" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/BI"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/bi" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/BU"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/bu" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/BE"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/be" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/BO"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/bo" />
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:src="@drawable/line" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/PA"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/pa" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/PI"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/pi" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/PU"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/pu" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/PE"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/pe" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/PO"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/po" />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#000000"
+            />
+
+        <!-- NEXT SECTION                    -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/KYA"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/kya" />
+
+                        <ImageView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/line" />
+
+                        <ImageView
+                            android:id="@+id/KYU"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/kyu" />
+
+                        <ImageView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/line" />
+
+                        <ImageView
+                            android:id="@+id/KYO"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/kyo" />
+
+                        <ImageView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/line" />
+
+                        <ImageView
+                            android:id="@+id/GYA"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/gya" />
+
+                        <ImageView
+                        android:layout_width="2dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/line" />
+
+                        <ImageView
+                            android:id="@+id/GYU"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/gyu" />
+
+                        <ImageView
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/line" />
+
+                        <ImageView
+                            android:id="@+id/GYO"
+                            style="@style/HiraganaStyle"
+                            android:src="@drawable/gyo" />
+                    </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:src="@drawable/line" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/SHA"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/sha" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/SHU"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/shu" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/SHO"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/sho" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/JA"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/ja" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/JU"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/ju" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/JO"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/jo" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:src="@drawable/line" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/CHA"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/cha" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/CHU"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/chu" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/CHO"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/cho" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/blank6"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/blank" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/blank7"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/blank" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/blank8"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/blank" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:src="@drawable/line" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/NYA"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/nya" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/NYU"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/nyu" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/NYO"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/nyo" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/blank9"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/blank" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/blank10"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/blank" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/blank11"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/blank" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:src="@drawable/line" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/HYA"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/hya" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/HYU"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/hyu" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/HYO"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/hyo" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/BYA"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/bya" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/BYU"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/byu" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/BYO"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/byo" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:src="@drawable/line" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/MYA"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/mya" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/MYU"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/myu" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/MYO"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/myo" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/PYA"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/pya" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/PYU"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/pyu" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/PYO"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/pyo" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:src="@drawable/line" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/RYA"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/rya" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/RYU"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/ryu" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/RYO"
+                style="@style/HiraganaStyle"
+                android:src="@drawable/ryo" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+
+                style="@style/HiraganaStyle"
+                android:src="@drawable/blank" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+
+                style="@style/HiraganaStyle"
+                android:src="@drawable/blank" />
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/line" />
+
+            <ImageView
+
+                style="@style/HiraganaStyle"
+                android:src="@drawable/blank" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:src="@drawable/line" />
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/primary_color</item>
+    </style>
+
+    <style name="ScrollBar">
+
+        <item name="android:scrollbarSize">6dp</item>
+        <item name="android:fadeScrollbars">true</item>
+
+    </style>
+
+
+
+    <!-- Style for a category of vocabulary words -->
+    <style name="CategoryStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+
+
+    <style name="ImageStyle">
+        <item name="android:layout_width">match_parent </item>
+        <item name="android:layout_height">@dimen/list_item_height </item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="HiraganaStyle">
+        <item name="android:layout_width">75dp</item>
+        <item name="android:layout_height">75dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:onClick">buttonPress</item>
+
+    </style>
+
+    <style name="NumberStyle">
+        <item name="android:layout_width">match_parent
+        </item>
+        <item name="android:layout_height">75dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+
+
+
+</resources>
